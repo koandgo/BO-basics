@@ -1,0 +1,7 @@
+model,rmse_difference_vs_onehot,bootstrap_ci_lower,bootstrap_ci_upper,bootstrap_conclusion,label
+M5_ligand_onehot,0.0,0.0,0.0,difference not clearly resolved,Ligand identity one-hot baseline
+M1_interpretable_5,0.04390514118416533,-0.3816044920723874,0.47936220891515074,difference not clearly resolved,Five interpretable Kraken descriptors
+M4_pc_scores,0.2727845139219074,-0.17369956838818917,0.7138884330956294,difference not clearly resolved,PC1-PC4 scores
+M3_pc_top3_each,0.6319801893558061,0.2360736888668776,1.0483547546496437,higher RMSE than one-hot,Top 3 loading descriptors from PC1-PC4
+M0_vbur_vmin,1.6492835692697003,1.0431390323655843,2.2784104587605474,higher RMSE than one-hot,%Vbur(min) + Vmin
+M2_all_kraken,2.222248300992339,1.6345024897553084,2.846814997228646,higher RMSE than one-hot,All cleaned Kraken descriptors
